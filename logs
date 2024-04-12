@@ -1,0 +1,92 @@
+Attaching to flask-app5, coc1
+[36mcoc1        |[0m 2024-04-09 11:48:41+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.44-1.el7 started.
+[36mcoc1        |[0m 2024-04-09 11:48:41+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+[36mcoc1        |[0m 2024-04-09 11:48:41+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.44-1.el7 started.
+[36mcoc1        |[0m '/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
+[36mcoc1        |[0m 2024-04-09T11:48:42.438992Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+[36mcoc1        |[0m 2024-04-09T11:48:42.441374Z 0 [Note] mysqld (mysqld 5.7.44) starting as process 1 ...
+[36mcoc1        |[0m 2024-04-09T11:48:42.446085Z 0 [Note] InnoDB: PUNCH HOLE support available
+[36mcoc1        |[0m 2024-04-09T11:48:42.446130Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+[36mcoc1        |[0m 2024-04-09T11:48:42.446137Z 0 [Note] InnoDB: Uses event mutexes
+[36mcoc1        |[0m 2024-04-09T11:48:42.446142Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+[36mcoc1        |[0m 2024-04-09T11:48:42.446148Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+[36mcoc1        |[0m 2024-04-09T11:48:42.446157Z 0 [Note] InnoDB: Using Linux native AIO
+[36mcoc1        |[0m 2024-04-09T11:48:42.446626Z 0 [Note] InnoDB: Number of pools: 1
+[36mcoc1        |[0m 2024-04-09T11:48:42.446906Z 0 [Note] InnoDB: Using CPU crc32 instructions
+[36mcoc1        |[0m 2024-04-09T11:48:42.449636Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+[36mcoc1        |[0m 2024-04-09T11:48:42.461778Z 0 [Note] InnoDB: Completed initialization of buffer pool
+[36mcoc1        |[0m 2024-04-09T11:48:42.465658Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+[36mcoc1        |[0m 2024-04-09T11:48:42.478118Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+[36mcoc1        |[0m 2024-04-09T11:48:42.508158Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+[36mcoc1        |[0m 2024-04-09T11:48:42.508428Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+[36mcoc1        |[0m 2024-04-09T11:48:42.592744Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+[36mcoc1        |[0m 2024-04-09T11:48:42.594079Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+[36mcoc1        |[0m 2024-04-09T11:48:42.594111Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+[36mcoc1        |[0m 2024-04-09T11:48:42.595229Z 0 [Note] InnoDB: 5.7.44 started; log sequence number 12220345
+[36mcoc1        |[0m 2024-04-09T11:48:42.596191Z 0 [Note] Plugin 'FEDERATED' is disabled.
+[36mcoc1        |[0m 2024-04-09T11:48:42.599303Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+[36mcoc1        |[0m 2024-04-09T11:48:42.602322Z 0 [Note] InnoDB: Buffer pool(s) load completed at 240409 11:48:42
+[36mcoc1        |[0m 2024-04-09T11:48:42.606179Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+[36mcoc1        |[0m 2024-04-09T11:48:42.606220Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+[36mcoc1        |[0m 2024-04-09T11:48:42.606226Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+[36mcoc1        |[0m 2024-04-09T11:48:42.606230Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+[36mcoc1        |[0m 2024-04-09T11:48:42.608019Z 0 [Warning] CA certificate ca.pem is self signed.
+[36mcoc1        |[0m 2024-04-09T11:48:42.608123Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+[36mcoc1        |[0m 2024-04-09T11:48:42.608634Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+[36mcoc1        |[0m 2024-04-09T11:48:42.608700Z 0 [Note] IPv6 is available.
+[36mcoc1        |[0m 2024-04-09T11:48:42.608756Z 0 [Note]   - '::' resolves to '::';
+[36mcoc1        |[0m 2024-04-09T11:48:42.608819Z 0 [Note] Server socket created on IP: '::'.
+[36mcoc1        |[0m 2024-04-09T11:48:42.623167Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+[36mcoc1        |[0m 2024-04-09T11:48:42.681187Z 0 [Note] Event Scheduler: Loaded 0 events
+[36mcoc1        |[0m 2024-04-09T11:48:42.681503Z 0 [Note] mysqld: ready for connections.
+[36mcoc1        |[0m Version: '5.7.44'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+[33mflask-app5  |[0m  * Serving Flask app 'main' (lazy loading)
+[33mflask-app5  |[0m  * Environment: production
+[33mflask-app5  |[0m    WARNING: This is a development server. Do not use it in a production deployment.
+[33mflask-app5  |[0m    Use a production WSGI server instead.
+[33mflask-app5  |[0m  * Debug mode: on
+[33mflask-app5  |[0m  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[33mflask-app5  |[0m  * Restarting with stat
+[33mflask-app5  |[0m  * Serving Flask app 'main.py' (lazy loading)
+[33mflask-app5  |[0m  * Environment: production
+[33mflask-app5  |[0m    WARNING: This is a development server. Do not use it in a production deployment.
+[33mflask-app5  |[0m    Use a production WSGI server instead.
+[33mflask-app5  |[0m  * Debug mode: off
+[33mflask-app5  |[0m Traceback (most recent call last):
+[33mflask-app5  |[0m   File "/usr/local/bin/flask", line 8, in <module>
+[33mflask-app5  |[0m     sys.exit(main())
+[33mflask-app5  |[0m   File "/usr/local/lib/python3.9/site-packages/flask/cli.py", line 994, in main
+[33mflask-app5  |[0m     cli.main(args=sys.argv[1:])
+[33mflask-app5  |[0m   File "/usr/local/lib/python3.9/site-packages/flask/cli.py", line 600, in main
+[33mflask-app5  |[0m     return super().main(*args, **kwargs)
+[33mflask-app5  |[0m   File "/usr/local/lib/python3.9/site-packages/click/core.py", line 1078, in main
+[33mflask-app5  |[0m     rv = self.invoke(ctx)
+[33mflask-app5  |[0m   File "/usr/local/lib/python3.9/site-packages/click/core.py", line 1688, in invoke
+[33mflask-app5  |[0m     return _process_result(sub_ctx.command.invoke(sub_ctx))
+[33mflask-app5  |[0m   File "/usr/local/lib/python3.9/site-packages/click/core.py", line 1434, in invoke
+[33mflask-app5  |[0m     return ctx.invoke(self.callback, **ctx.params)
+[33mflask-app5  |[0m   File "/usr/local/lib/python3.9/site-packages/click/core.py", line 783, in invoke
+[33mflask-app5  |[0m     return __callback(*args, **kwargs)
+[33mflask-app5  |[0m   File "/usr/local/lib/python3.9/site-packages/click/decorators.py", line 92, in new_func
+[33mflask-app5  |[0m     return ctx.invoke(f, obj, *args, **kwargs)
+[33mflask-app5  |[0m   File "/usr/local/lib/python3.9/site-packages/click/core.py", line 783, in invoke
+[33mflask-app5  |[0m     return __callback(*args, **kwargs)
+[33mflask-app5  |[0m   File "/usr/local/lib/python3.9/site-packages/flask/cli.py", line 853, in run_command
+[33mflask-app5  |[0m     run_simple(
+[33mflask-app5  |[0m   File "/usr/local/lib/python3.9/site-packages/werkzeug/serving.py", line 1017, in run_simple
+[33mflask-app5  |[0m     inner()
+[33mflask-app5  |[0m   File "/usr/local/lib/python3.9/site-packages/werkzeug/serving.py", line 957, in inner
+[33mflask-app5  |[0m     srv = make_server(
+[33mflask-app5  |[0m   File "/usr/local/lib/python3.9/site-packages/werkzeug/serving.py", line 789, in make_server
+[33mflask-app5  |[0m     return ThreadedWSGIServer(
+[33mflask-app5  |[0m   File "/usr/local/lib/python3.9/site-packages/werkzeug/serving.py", line 693, in __init__
+[33mflask-app5  |[0m     super().__init__(server_address, handler)  # type: ignore
+[33mflask-app5  |[0m   File "/usr/local/lib/python3.9/socketserver.py", line 452, in __init__
+[33mflask-app5  |[0m     self.server_bind()
+[33mflask-app5  |[0m   File "/usr/local/lib/python3.9/http/server.py", line 137, in server_bind
+[33mflask-app5  |[0m     socketserver.TCPServer.server_bind(self)
+[33mflask-app5  |[0m   File "/usr/local/lib/python3.9/socketserver.py", line 466, in server_bind
+[33mflask-app5  |[0m     self.socket.bind(self.server_address)
+[33mflask-app5  |[0m OSError: [Errno 98] Address already in use
+[33mflask-app5  |[0m  * Debugger is active!
+[33mflask-app5  |[0m  * Debugger PIN: 944-373-535

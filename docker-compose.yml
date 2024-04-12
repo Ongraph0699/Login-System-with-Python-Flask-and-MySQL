@@ -1,0 +1,39 @@
+version: '3'
+
+services:
+    web:
+        container_name: flask-app5
+#        build: ./Login-System-with-Python-Flask-and-MySQL
+        image: flask5
+        environment:
+             FLASK_APP: main.py  # Specify the entry point of your Flask application
+        ports:
+          - "5000:5000"
+
+            # volumes:
+          #     - ./Login-System-with-Python-Flask-and-MySQL:/Login-System-with-Python-Flask-and-MySQL
+        networks:
+            - sql+flask
+
+    mysql-db:
+        container_name: coc1
+        image: mysql:5.7
+        restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: rishikumar
+            MYSQL_DATABASE: loginapp1
+            MYSQL_HOST: mysql
+        ports:
+          - '3307:3306'
+        volumes:
+          - ./mysql-data:/var/lib/mysql
+        networks:
+            - sql+flask
+
+networks:
+    sql+flask:
+
+volumes:
+  # Login-System-with-Python-Flask-and-MySQL:
+    mysql-data:
+
